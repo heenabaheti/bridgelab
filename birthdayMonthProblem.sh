@@ -12,7 +12,7 @@ novMonthCount=0
 decMonthCount=0
 for(( i=1;i<=50;i++ ))
 do
-	month=$((RANDOM%13))
+	month=$((RANDOM%12+1))
 	case $month in
 		1)
 			janMonthCount=$((janMonthCount + 1))
